@@ -1,0 +1,9 @@
+/* Google Fonts (Inter and noto serif) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Start Global CSS */
+:root{
+    --primary-font:"Noto Serif", serif;
+    --secondary-font:"Inter", sans-serif;
+}
+/* End Global CSS */
