@@ -30,10 +30,10 @@
     }
     .hero-area .hero-text h1{
         flex-basis: 100%;
-        text-align: center;
+        text-align: left;
     }
     .hero-area .hero-text p{
-        text-align: center;
+        text-align: left;
         margin-top:10px;
     }
     .hero-area .hero-image{
