@@ -227,3 +227,68 @@ p{
     color:var(--secondary-color);
 }
 /* EndPlant and Flower Lover section style */
+
+
+/* Start Latest deal area style */
+.latest-deal-title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.latest-deal-title h2{
+    font-size:3rem;
+}
+.latest-deal-title h2 span{
+    color:var(--primary-color);
+}
+.latest-deal-image{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:1.5rem;
+    padding-bottom: 2rem;
+}
+.deal-image-first-column{
+    display:grid;
+    gap:1.5rem;
+}
+
+/* card overlay design */
+.latest-deal-image-item{
+    position:relative;
+    overflow:hidden;
+    border-radius: 1rem;
+}
+.latest-deal-image-item img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position:absolute;
+    inset:0;
+    background-color: rgba(0, 0, 0, 0.349);
+    color:var(--light-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.overlay h3{
+    font-size:1.25rem;
+    font-size: 600;
+}
+.overlay a{
+    text-decoration: underline;
+    color:var(--light-color);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    margin-top:1rem;
+}
+.overlay a:hover{
+    color:var(--primary-color);
+}
+.zabo-image-overlay h3{
+    font-size: 2rem;
+}
+.zabo-image-overlay a{
+    font-size: 1.5rem;
+}
+/* End Latest deal area style */
