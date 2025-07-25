@@ -245,6 +245,9 @@ p{
 .latest-deal-title h2 span{
     color:var(--primary-color);
 }
+.latest-deal-title p{
+    margin-top:0.9rem;
+}
 .latest-deal-image{
     display:grid;
     grid-template-columns: 1fr 2fr;
