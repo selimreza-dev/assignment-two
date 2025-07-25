@@ -12,7 +12,7 @@
     --secondary-font:"Inter", sans-serif;
     --bg-color:#F5F8FF;
     --primary-color:#E85A08;
-    --secondary-color:#929292;
+    --secondary-color:#797979;
     --dark-color:#000000;
     --light-color:#FFFFFF;
 }
@@ -27,11 +27,22 @@ li{
 a{
     text-decoration: none;
 }
+body{
+    font-family:var(--secondary-font);
+}
 h1,h2,h3,h4,h5,h6{
     font-family: var(--primary-font);
 }
 p, a{
     font-family: var(--secondary-font);
+}
+section{
+    background-color: var(--bg-color);
+    padding:2rem 0;
+}
+p{
+    font-size:0.9rem;
+    line-height: 1.4rem;
 }
 /* End Global CSS */
 
@@ -92,7 +103,8 @@ p, a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:5rem 0;
+    padding-top:4.5rem;
+    padding-bottom: 2rem;
 }
 .hero-area .hero-text{
     flex-basis: 50%;
@@ -116,3 +128,63 @@ p, a{
     max-width: 100%;
 }
 /* End Hero Area style */
+
+/* Start Our plant section style */
+.plant-text{
+    text-align: center;
+}
+.plant-text h2{
+    font-size:3rem;
+}
+.plant-text span{
+    color:var(--primary-color);
+}
+.plant-text p{
+    text-align: center;
+    color: var(--secondary-color);
+    padding:0 12rem;
+    margin:1rem 0;
+}
+.plant-item-wrap{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+}
+.plant-items {
+    box-shadow: 1px 2px 10px -8px rgb(0 0 0 / 65%);
+    overflow: hidden;
+    border-radius: 2px;
+}
+.plant-image img{
+    width: 100%;
+}
+.plant-item-text{
+    text-align: center;
+}
+.plant-item-text h4{
+    padding:0.5rem 0;
+    font-size:1rem;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+}
+.plant-item-text span{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.plant-btn a{
+    display: block;
+    padding: 0.8rem 1rem;
+    background-color: var(--primary-color);
+    color:var(--light-color);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color, 0.2s;
+}
+.plant-btn a:hover{
+    background-color: var(--dark-color);
+}
+/* end Our plant section style */

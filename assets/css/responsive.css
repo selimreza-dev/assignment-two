@@ -7,6 +7,13 @@
     .hero-area .hero-text p{
         font-size:0.9rem;
     }
+
+    /* Our plants area responsive */
+    .plant-text p{
+        padding:0 6rem;
+        margin-bottom: 1.5rem;
+    }
+
 }
 /* Medium Screen */
 @media screen and (max-width:768px) {
@@ -36,6 +43,15 @@
         width: 100%;
         
     }
+
+    /* Our plant section responsive */
+    .plant-item-wrap{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .plant-text p{
+        padding:0rem;
+        margin-bottom: 1.5rem;
+    }
     
 }
 /* Small Screen */
@@ -46,5 +62,10 @@
     }
     .hero-area .hero-text h1{
         font-size:2rem;
+    }
+
+    /* Our plant section responsive */
+    .plant-item-wrap{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
