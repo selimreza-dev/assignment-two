@@ -93,6 +93,15 @@
         font-size:1.5rem;
     }
     
+
+    /* Join Section responsive */
+    #join-area{
+        padding:6rem 0;
+
+    }
+    .join-title h2{
+        font-size: 1.8rem;
+    }
 }
 /* Small Screen */
 @media screen and (max-width:576px) {
@@ -115,5 +124,19 @@
     }
     .overlay a{
         font-size:1rem;
+    }
+
+
+    /* Join Section responsive */
+    #join-area{
+        padding:4.5rem 0;
+
+    }
+    .join-title h2{
+        font-size: 1.3rem;
+    }
+    .join-input input[type="email"]{
+        width: 70%;
+
     }
 }
