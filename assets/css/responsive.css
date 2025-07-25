@@ -64,6 +64,9 @@
     }
 
     /* Our plant section responsive */
+        .plant-text h2 {
+        font-size: 2rem;
+    }
     .plant-item-wrap{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -84,6 +87,9 @@
     .plant-lover-image .trusted-badge{
         display:none;
     }
+    .plant-lover-content h2 {
+        font-size: 1.7rem;
+    }
 
     .plant-lover-content ul li{
         margin:0.8rem 0;
@@ -92,6 +98,9 @@
     }
 
     /* Latest Deals responsive */
+        .latest-deal-title h2 {
+        font-size: 2rem;
+    }
     .latest-deal-image{
         grid-template-columns: 1fr;
     }
