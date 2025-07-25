@@ -189,3 +189,41 @@ p{
     background-color: var(--dark-color);
 }
 /* end Our plant section style */
+
+
+/* Start Plant and Flower Lover section style */
+.plant-lover-wrap{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5rem;
+    padding:4rem 0;
+}
+.plant-lover-image{
+    flex-basis: 50%;
+    position: relative;
+}
+.plant-lover-image .trusted-badge{
+    position: absolute;
+    top:-120px;
+    right:-120px;
+    width: 60%;
+}
+
+.plant-lover-image img{
+    width: 100%;
+}
+.plant-lover-content{
+    flex-basis: 50%;
+}
+.plant-lover-content h2{
+    font-size:3rem;
+    line-height: 3.5rem;
+}
+.plant-lover-content ul li{
+    list-style-type: disc;
+    margin:2rem 0;
+    margin-left:1.25rem;
+    color:var(--secondary-color);
+}
+/* EndPlant and Flower Lover section style */

@@ -14,6 +14,16 @@
         margin-bottom: 1.5rem;
     }
 
+    /* Plant and Flower lover responsive */
+    .plant-lover-content h2 {
+        font-size: 2.2rem;
+    }
+    .plant-lover-image .trusted-badge{
+        top:-80px;
+        right:-80px;
+        width: 50%;
+    }
+
 }
 /* Medium Screen */
 @media screen and (max-width:768px) {
@@ -51,6 +61,25 @@
     .plant-text p{
         padding:0rem;
         margin-bottom: 1.5rem;
+    }
+
+    /* Plant and flower lover section */
+    .plant-lover-wrap{
+        flex-direction: column;
+        gap:1rem;
+        padding:2rem 0;
+    }
+    .plant-lover-image{
+        width: 100%;
+    }
+    .plant-lover-image .trusted-badge{
+        display:none;
+    }
+
+    .plant-lover-content ul li{
+        margin:0.8rem 0;
+        margin-left:1.25rem;
+        color:var(--secondary-color);
     }
     
 }
